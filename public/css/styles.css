@@ -1,0 +1,53 @@
+body{
+    color:cornflowerblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    max-width:650px;
+    margin: 0 auto;
+    padding: 0 16px;
+
+    display:flex; /*to fix the footer*/
+    flex-direction: column; /*to move footer or content from top to bottom we use column */
+    min-height: 100vh /*viewheight*/
+}
+.main-content{
+    flex-grow: 1;
+}
+footer{
+    color: grey;
+    margin-top:16px;
+    padding: 16px 0;
+    border-top: 1px solid gray;
+    
+}
+header{
+    margin-top:16px;
+    margin-bottom: 48px;
+}
+header a{
+    margin-right:16px;
+    text-decoration: none;
+    color: blueviolet;
+}
+h1{
+    color: darkslategray;
+    font-family: cursive;
+    margin-bottom: 16px;
+}
+h3{
+    color: darkslategray;
+    font-family: cursive;
+}
+input{
+    border: 1px solid #cccccc;
+    padding: 8px;
+}
+button{
+    cursor: pointer;
+    border: 1px solid #888888;
+    background: #888888;
+    color: white;
+    padding: 8px;
+}
+.portrait{
+    width:250px;
+}
